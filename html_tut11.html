@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 11</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <style>
+        .main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .main .loginform{
+            /* background: rgb(193, 255, 237); */
+            background-image: url(https://t4.ftcdn.net/jpg/02/54/08/79/360_F_254087933_7TgbU1MWQwptmFANKAs6RmEdkM5xy99v.jpg);
+            background-repeat: no-repeat;
+            padding: 50px;
+            width: 500px;
+        }
+        .loginform .form{
+            width: 100%;
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .loginform .form .label{
+            width: 100px;
+            display: flex;
+            align-items: center;
+        }
+        .loginform .form input{
+            width: 50%;
+            padding: 10px;
+            /* border-radius: 4px; */
+            background-color: transparent;
+            border: 0;
+            border-bottom: 1px solid #000;
+        }
+        .loginform .form input:focus{
+            outline: none;
+        }
+        .login{
+            padding: 10px 20px;
+            border: 0;
+            background: rgb(15, 189, 47);
+            color: #fff;
+            
+        }
+        .social{
+            text-align: center;
+        }
+        .social a{
+            text-decoration: none;
+        }
+        .social a i{
+            padding: 10px;
+            background: #000;
+            color: #fff;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="loginform">
+            <h3>Login form</h3>
+      
+            <div class="form">
+                <div class="label">
+                    <label for="">Email</label>
+                </div>
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="form">
+                <div class="label">
+                    <label for="">Password</label>
+                </div>
+                <input type="password" placeholder="Enter your Password">
+            </div>
+
+            <button class="login">Login</button>
+
+            <br>
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <p style="text-align: center;" >Don't have an account? <a href="html_tut10.html">Sign up</a> </p>
+        </div>
+    </div>
+</body>
+</html>
