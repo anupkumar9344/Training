@@ -1,0 +1,70 @@
+
+/* primary : #B9314F
+s: #75B9BE
+t: #0A0A0A
+bg: #F5F5F5 
+white : #ffffff
+*/
+*{
+    color: #0A0A0A;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #F5F5F5;
+}
+.navbar{
+    background-color: #B9314F;
+    width: 100%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/54/08/79/360_F_254087933_7TgbU1MWQwptmFANKAs6RmEdkM5xy99v.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar .nav-padding{
+    padding: 20px 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+.navbar .brand-name a{
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.navbar .nav-padding .menu{
+    display: flex;
+}
+.navbar .nav-padding .menu li{
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar .nav-padding .menu li a{
+    padding: 20px 20px;
+    /* background: rgb(152, 152, 152); */
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.navbar .auth a{
+    margin: 0 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+.navbar .auth .reg{
+    border: 1px solid #fff;
+}
+.navbar .auth .login{
+    border: 1px solid #75B9BE;
+    background-color: #B9314F;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.navbar .auth .login:hover{
+    border: 1px solid #75B9BE;
+    background-color: transparent;
+    color: #ffffff;
+}
