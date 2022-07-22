@@ -1,0 +1,50 @@
+.hero-section{
+    background: #E5E5E5;
+    padding: 100px 50px;
+}
+/* .section-padding{
+    padding: 100px 50px;
+} */
+.hero-section .main{
+    display: flex;
+    align-items: center;
+}
+.hero-section .main .left{
+    width: 50%;
+}
+.hero-section .main .right{
+    width: 50%;
+}
+.hero-section .main .right img{
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+.hero-section .main .right img:hover{
+    transform: scale(1.02);
+}
+.hero-section .main .left h1{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 35px;
+    color: #B9314F;
+}
+.hero-section .main .left p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 28px;
+    color: #0A0A0A;
+}
+.hero-section .main .left button{
+    padding: 15px 25px;
+    border: 1px solid #0A0A0A;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.hero-section .main .left button:hover{
+    background: #B9314F;
+    color: #fff;
+    transform: scale(1.02);
+}
