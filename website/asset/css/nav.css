@@ -82,3 +82,18 @@ body{
     background-color: transparent;
     color: #ffffff;
 }
+@media screen and (max-width: 800px) {
+    .navbar .nav-padding .menu{
+        display: block;
+    }
+    .navbar .nav-padding{
+        height: auto;
+
+    }
+    .navbar .auth{
+        display: block;
+    }
+    .navbar .brand-name a{
+        display: none;
+    }
+}
