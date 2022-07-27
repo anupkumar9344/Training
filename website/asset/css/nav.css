@@ -1,15 +1,23 @@
 
-/* primary : #B9314F
+/* 
+primary : #B9314F
 s: #75B9BE
 t: #0A0A0A
 bg: #F5F5F5 
-white : #ffffff
+white : #FFFFFF
 */
 *{
     color: #0A0A0A;
     margin: 0;
     padding: 0;
     text-decoration: none;
+}
+:root{
+    --primary: #B9314F;
+    --secondary: #75B9BE;
+    --text: #0A0A0A;
+    --bg-color: #F5F5F5;
+    --white: #ffffff;
 }
 body{
     background-color: #F5F5F5;
