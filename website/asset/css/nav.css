@@ -28,6 +28,8 @@ body{
     background-image: url(https://t4.ftcdn.net/jpg/02/54/08/79/360_F_254087933_7TgbU1MWQwptmFANKAs6RmEdkM5xy99v.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: fixed;
+    z-index: 1;
 }
 .navbar .nav-padding{
     padding: 20px 30px;
