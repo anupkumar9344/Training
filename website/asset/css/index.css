@@ -40,8 +40,10 @@ white : #FFFFFF
 }
 .hero-section .main .right img:hover{
     transform: scale(1.02);
+    
 }
 .hero-section .main .left h1{
+
     font-size: 35px;
     font-weight: 800;
     margin-bottom: 35px;

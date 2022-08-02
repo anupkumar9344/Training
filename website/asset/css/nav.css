@@ -6,6 +6,7 @@ t: #0A0A0A
 bg: #F5F5F5 
 white : #FFFFFF
 */
+
 *{
     color: #0A0A0A;
     margin: 0;
@@ -21,6 +22,7 @@ white : #FFFFFF
 }
 body{
     background-color: #F5F5F5;
+
 }
 .navbar{
     background-color: #B9314F;
@@ -29,7 +31,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    z-index: 1;
+    z-index: 0;  /* Defoault */
+    /* z-index: 1;  value high */
+    /* z-index: -2;  Defoault */
+
 }
 .navbar .nav-padding{
     padding: 20px 30px;
